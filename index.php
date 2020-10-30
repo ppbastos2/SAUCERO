@@ -266,6 +266,8 @@
                 <li><a href="">Twitter</a></li>
             </ul>
         </div>
+
+        <p>Copyright &copy;	2018 Vincent. All Rights Reserved.</p>
     </footer>
 
 
