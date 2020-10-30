@@ -5,34 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="_cdn/styles/boot.css">
     <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Saucero</title>
 </head>
 <body>
-    <header>
-        <div>
-            <img src="" alt="">
-            <div>
-                <span>(11) 97530-7935</span>
-                <span>9:00 - 18:00</span>
-            </div>
-        </div>
-        <div>
-            <img src="" alt="Saucero">
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Menu</a></li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="__main_header">
+        <div class="container">
+            <div class="row __main_header_content">
+            
+                <div class="row __main_header_content_contact">
+                    <div class="icons">
+                        <span class="icon-mobile icon-notext"></span>
+                    </div>
+                    
+                    <div class="contacts">
+                        <span class="number">(11) 97530-7935</span>
+                        <span class="hours">9:00 - 18:00</span>
+                    </div>
+                </div>
+
+                <div class="__main_header_content_logo_menu">
+                    <img src="assets/img/saucero.png" alt="Saucero" width="150">
+                    <nav class="nav_list">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Menu</a></li>
+                            <li><a href="">Features</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div class="row __main_header_content_cart">
+                    <div class="price_items">
+                        <span>R$ 0,00</span>
+                        <a href="">0 Itens - no carrinho</a>
+                    </div>
+                    <div class="cart">
+                        <a class="icon-bag"><span class="rounded">0</span></a>
+                    </div>    
+                </div>
         
-        <div>
-            <div>
-                <span>R$0,00</span>
-                <span>0 itens</span>
             </div>
         </div>
     </header>
