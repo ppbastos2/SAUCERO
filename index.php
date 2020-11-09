@@ -94,217 +94,205 @@
             </div>
         </section>
 
-        <section>
-            <div>
-                <article>
-                    <img src="" alt="Quality Foods">
-                    <h2>Quality Foods</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </article>
-                <article>  
-                    <img src="" alt="Quality Foods">
-                    <h2>Quality Foods</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                </article>
-                <article>
-                    <img src="" alt="Quality Foods">
-                    <h2>Quality Foods</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </article>
+        <section class="__introduction">
+            <div class="container">
+                <div class="row __introduction_content">
+                    <article class="__introduction_content_article">
+                        <img src="assets/img/icon_1.png" alt="Quality Foods">
+                        <h2>Quality Foods</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </article>
+                    <article class="__introduction_content_article">  
+                        <img src="assets/img/icon_3.png" alt="Fasted Delivery">
+                        <h2>Fasted Delivery</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </article>
+                    <article class="__introduction_content_article">
+                        <img src="assets/img/icon_2.png" alt="Quality Foods">
+                        <h2>Quality Foods</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </article>
+                </div>
             </div>
         </section>
 
-        <section>
-            <header>
-                <div>
-                    <article>
-                        <img src="" alt="">   
+        <section class="__hot_sales">
+            <div class="container">
+                <header class="__hot_sales_headline">
+                    <h1>Hot Sales</h1>
+                </header>
+                <div class="row __hot_sales_content">
+                    <article class="__hot_sales_content_article">
+                        <img src="assets/img/hot.png" alt="">   
                         <h2>Diablo</h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
                         <p><span>R$20,00</span></p>
                     </article>
 
-                    <article>
-                        <img src="" alt="">   
+                    <article class="__hot_sales_content_article">
+                        <img src="assets/img/hot.png" alt="">   
                         <h2>Carbonara</h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
                         <p><span>R$20,00</span></p>
                     </article>
 
-                    <article>
-                        <img src="" alt="">   
+                    <article class="__hot_sales_content_article">
+                        <img src="assets/img/hot.png" alt="">   
                         <h2>Capricciosa</h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
                         <p><span>R$20,00</span></p>
                     </article>
 
-                    <article>
-                        <img src="" alt="">   
+                    <article class="__hot_sales_content_article">
+                        <img src="assets/img/hot.png" alt="">   
                         <h2>Prosciutto</h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
                         <p><span>R$20,00</span></p>
                     </article>
-
-                </div>
-            </header>   
+                </div> 
+            </div>  
         </section>
 
-        <section>
-            <header>
-                <h1>Discover our Menu</h1>
-            </header>
-            <div>
-                <ul>
-                    <li><a href="">Burgers</a></li>
-                    <li><a href="">Desserts</a></li>
-                    <li><a href="">Drinks</a></li>
-                    <li><a href="">Pasta</a></li>
-                    <li><a href="">Pizzas</a></li>
-                    <li><a href="">Salads</a></li>
+        <section class="__product_menu">
+           <div class="container">
+                <header class="__product_menu_headline">
+                    <h1>Discover our Menu</h1>
+                </header>
+                <ul class="row __product_menu_list">
+                        <li><a class="active" href="">Burgers</a></li>
+                        <li><a href="">Desserts</a></li>
+                        <li><a href="">Drinks</a></li>
+                        <li><a href="">Pasta</a></li>
+                        <li><a href="">Pizzas</a></li>
+                        <li><a href="">Salads</a></li>
                 </ul>
 
-                <article>
-                    <img src="" alt="">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <p><span>R$20,00</span></p>
-                </article>
+                <div class="row __product_menu_content active">
+                    <article class="__product_menu_content_article">
+                        <img src="assets/img/hot.png" alt="">
+                        <h2>Lorem, ipsum dolor.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p><span>R$20,00</span></p>
+                    </article>
 
-                <article>
-                    <img src="" alt="">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <p><span>R$20,00</span></p>
-                </article>
+                    <article class="__product_menu_content_article">
+                        <img src="assets/img/hot.png" alt="">
+                        <h2>Lorem, ipsum dolor.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p><span>R$20,00</span></p>
+                    </article>
 
-                <article>
-                    <img src="" alt="">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <p><span>R$20,00</span></p>
-                </article>
+                    <article class="__product_menu_content_article">
+                        <img src="assets/img/hot.png" alt="">
+                        <h2>Lorem, ipsum dolor.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p><span>R$20,00</span></p>
+                    </article>
 
-                <article>
-                    <img src="" alt="">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <p><span>R$20,00</span></p>
-                </article>
+                    <article class="__product_menu_content_article">
+                        <img src="assets/img/hot.png" alt="">
+                        <h2>Lorem, ipsum dolor.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p><span>R$20,00</span></p>
+                    </article>
 
-                <article>
-                    <img src="" alt="">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <p><span>R$20,00</span></p>
-                </article>
+                    <article class="__product_menu_content_article">
+                        <img src="assets/img/hot.png" alt="">
+                        <h2>Lorem, ipsum dolor.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p><span>R$20,00</span></p>
+                    </article>
 
-                <article>
-                    <img src="" alt="">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <p><span>R$20,00</span></p>
-                </article>
-                
-                <article>
-                    <img src="" alt="">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <p><span>R$20,00</span></p>
-                </article>
+                    <article class="__product_menu_content_article">
+                        <img src="assets/img/hot.png" alt="">
+                        <h2>Lorem, ipsum dolor.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p><span>R$20,00</span></p>
+                    </article>
+                    
+                    <article class="__product_menu_content_article">
+                        <img src="assets/img/hot.png" alt="">
+                        <h2>Lorem, ipsum dolor.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p><span>R$20,00</span></p>
+                    </article>
 
-                <article>
-                    <img src="" alt="">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <p><span>R$20,00</span></p>
-                </article>
-
-                <article>
-                    <img src="" alt="">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <p><span>R$20,00</span></p>
-                </article>
-
-                <article>
-                    <img src="" alt="">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <p><span>R$20,00</span></p>
-                </article>
-
-                <article>
-                    <img src="" alt="">
-                    <h2>Lorem, ipsum.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <p><span>R$20,00</span></p>
-                </article>
-
-                <article>
-                    <img src="" alt="">
-                    <h2>Lorem, ipsum.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <p><span>R$20,00</span></p>
-                </article>
-            </div>
+                    <article class="__product_menu_content_article">
+                        <img src="assets/img/hot.png" alt="">
+                        <h2>Lorem, ipsum dolor.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p><span>R$20,00</span></p>
+                    </article>
+                </div>
+           </div>
         </section>
 
-        <section>
-            <header>
-                <h1>Contact Us</h1>
-            </header>
+        <section class="__contact">
+            <div class="container">
+                <header class="__contact_headline">
+                    <h1>Contact Us</h1>
+                </header>
 
-            <div>
-                <form action="">
-                    <div>
-                        <input type="text" name="name" placeholder="Seu Nome">
-                    </div>
+                <div class="__contact_form_content">
+                    <form action="" class="__main_form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Seu Nome" class="form-control radius" >
+                        </div>
 
-                    <div>
-                        <input type="email" name="email" placeholder="Seu EMail ">
-                    </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Seu EMail " class="form-control radius">
+                        </div>
 
-                    <div>
-                        <input type="text" name="phone" placeholder="Seu Telefone">
-                    </div>
+                        <div class="form-group">
+                            <input type="text" name="phone" placeholder="Seu Telefone" class="form-control radius">
+                        </div>
 
-                    <div>
-                        <textarea name="message" cols="30" rows="10"></textarea>
-                    </div>
+                        <div class="form-group">
+                            <textarea name="message" cols="30" rows="10" class="form-control radius"></textarea>
+                        </div>
 
-                    <button type="submit">Enviar Mensagem</button>
-                </form>
+                        <button type="submit" class="btn btn_submit radius transition">Enviar Mensagem</button>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
 
-    <div>
-        <a href="" title="Subir para o topo">Subir</a>
-    </div>
+    
 
-    <footer>
-        <div>
-            <img src="" alt="Saucero">
-            <p>(11) 97530-7935 - 09:00 - 17:00</p>
+    <footer class="__main_footer">
+        <div class="container">
+            <div class="row __main_footer_content">
+                <div class="__company">
+                    <img src="assets/img/saucero.png" alt="Saucero">
+                    <p>(11) 97530-7935 - <span>09:00 - 17:00</span></p>
+                </div>
 
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Menu</a></li>
-                <li><a href="">Features</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
+                <div class="__menunav">
+                    <ul class="row __menunav_list">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Menu</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
 
-            <ul>
-                <li><a href="">Facebook</a></li>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Twitter</a></li>
-            </ul>
+                <div class="__menunav">
+                    <ul class="row __menunav_list __menunav_list_social">
+                        <li><a href="" class="icon-facebook"></a></li>
+                        <li><a href="" class="icon-instagram"></a></li>
+                        <li><a href="" class="icon-twitter"></a></li>
+                    </ul>'
+                </div>
+            </div>
+            <p class="__main_footer_copy">Copyright &copy;	2018 Vincent. All Rights Reserved.</p>
         </div>
 
-        <p>Copyright &copy;	2018 Vincent. All Rights Reserved.</p>
     </footer>
 
-
+    <div class="__btn_up_content">
+        <a href="" title="Subir para o topo" class="btn_up radius transition icon-angle-up"></a>
+    </div>
 </body>
 </html>
