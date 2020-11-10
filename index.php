@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="__main_header_content_logo_menu">
-                    <img src="assets/img/saucero.png" alt="Saucero">
+                    <img src="assets/img/logo.png" alt="Saucero">
                     <nav class="nav_list">
                         <ul>
                             <li><a href="">Home</a></li>
@@ -63,7 +63,7 @@
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
 
                             <a href="" class="btn radius transition btn_first">Book now</a>
-                            <a href="" class="btn radius transition btn-yellow btn_second">View Menu</a>
+                            <a href="" class="btn radius transition btn_second">View Menu</a>
                         </footer>
                     </article>
                     <div class="__slide_show_content_cover">
@@ -87,10 +87,6 @@
                         <img src="assets/img/pizza.png" alt="banner">
                     </div>
                 </div>    
-            </div>
-            <div class="__main_slide_show_control">
-                        <a href="" title="previous" class="btn btn-green btn_previous">Anterior</a>
-                        <a href="" title="previous" class="btn btn-yellow btn_next">Próximo</a>
             </div>
         </section>
 
@@ -116,44 +112,45 @@
             </div>
         </section>
 
-        <section class="__hot_sales">
-            <div class="container">
-                <header class="__hot_sales_headline">
+        <section class="__product_menu">
+           <div class="container">
+                <header class="__product_menu_headline">
                     <h1>Hot Sales</h1>
                 </header>
-                <div class="row __hot_sales_content">
-                    <article class="__hot_sales_content_article">
-                        <img src="assets/img/hot.png" alt="">   
-                        <h2>Diablo</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                
+                <div class="row __product_menu_content active">
+                    <article class="__product_menu_content_article">
+                        <img src="assets/img/hot.png" alt="">
+                        <h2>Lorem, ipsum dolor.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         <p><span>R$20,00</span></p>
                     </article>
 
-                    <article class="__hot_sales_content_article">
-                        <img src="assets/img/hot.png" alt="">   
-                        <h2>Carbonara</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    <article class="__product_menu_content_article">
+                        <img src="assets/img/hot.png" alt="">
+                        <h2>Lorem, ipsum dolor.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         <p><span>R$20,00</span></p>
                     </article>
 
-                    <article class="__hot_sales_content_article">
-                        <img src="assets/img/hot.png" alt="">   
-                        <h2>Capricciosa</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    <article class="__product_menu_content_article">
+                        <img src="assets/img/hot.png" alt="">
+                        <h2>Lorem, ipsum dolor.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         <p><span>R$20,00</span></p>
                     </article>
 
-                    <article class="__hot_sales_content_article">
-                        <img src="assets/img/hot.png" alt="">   
-                        <h2>Prosciutto</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    <article class="__product_menu_content_article">
+                        <img src="assets/img/hot.png" alt="">
+                        <h2>Lorem, ipsum dolor.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         <p><span>R$20,00</span></p>
                     </article>
-                </div> 
-            </div>  
+                </div>
+           </div>
         </section>
 
-        <section class="__product_menu">
+        <section class="__product_menu __product_menu_second">
            <div class="container">
                 <header class="__product_menu_headline">
                     <h1>Discover our Menu</h1>
@@ -227,6 +224,13 @@
            </div>
         </section>
 
+        <div class="__divider">
+            <div class="container">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, repellat debitis. Molestias tenetur dicta placeat!</h3>
+                
+            </div>
+        </div>
+
         <section class="__contact">
             <div class="container">
                 <header class="__contact_headline">
@@ -264,7 +268,7 @@
         <div class="container">
             <div class="row __main_footer_content">
                 <div class="__company">
-                    <img src="assets/img/saucero.png" alt="Saucero">
+                    <img src="assets/img/logo_rodape.png" alt="Saucero">
                     <p>(11) 97530-7935 - <span>09:00 - 17:00</span></p>
                 </div>
 
