@@ -12,6 +12,27 @@ body {
 
 .__main_header {
     background: var(--second_color);
+    position: relative;
+}
+
+.__main_header:after {
+    content: "";
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    bottom: -20;
+    left: 0;
+    background-image: linear-gradient(rgba(18, 22, 24, 1), rgba(18, 22, 24, 1)), linear-gradient(-45deg, transparent 75%, rgba(18, 22, 24, 1) 75%), linear-gradient(45deg, transparent 75%, rgba(18, 22, 24, 1) 75%);
+    z-index: 99;
+    display: block;
+    border: solid transparent;
+    border-width: 10px 0;
+    background-color: hsla(0, 0%, 0%, 0);
+    background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+    background-position: 0 0, 0 0, 0 0, 0 100%, 0 100%;
+    background-size: auto auto, 15px 15px, 15px 15px, 15px 15px, 15px 15px;
+    background-clip: padding-box, border-box, border-box, border-box, border-box;
+    background-origin: padding-box, border-box, border-box, border-box, border-box;
 }
 
 .__main_header .__main_header_content {
@@ -80,16 +101,55 @@ body {
     justify-content: space-around;
 }
 
-.__main_header_content_logo_menu .nav_list a {
+.__main_header_content_logo_menu .nav_list ul a {
     padding: 7px 14px;
     font-size: var(--font-normal);
     text-transform: uppercase;
     color: var(--thirst_color);
     letter-spacing: 2px;
+    position: relative;
+    transition-duration: var(--duration);
+    -moz-transition-duration: var(--duration);
+    -webkit-transition-duration: var(--duration);
+}
+
+.__main_header_content_logo_menu .nav_list ul a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 14px;
+    border: 1px solid var(--primary_color);
+    width: 0;
+    opacity: 0;
+    transition-duration: var(--duration);
+    -moz-transition-duration: var(--duration);
+    -webkit-transition-duration: var(--duration);
 }
 
 .__main_header_content_logo_menu .nav_list ul a:hover {
     color: #f84712;
+}
+
+.__main_header_content_logo_menu .nav_list ul a:hover::after {
+    width: 50%;
+    opacity: 1;
+}
+
+.__main_header_content_logo_menu .nav_list li.active a {
+    color: var(--primary_color);
+}
+
+.__main_header_content_logo_menu .nav_list li.active a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 14px;
+    border: 1px solid var(--primary_color);
+    width: 50%;
+    opacity: 1;
+    transition-duration: var(--duration);
+    -moz-transition-duration: var(--duration);
+    -webkit-transition-duration: var(--duration);
 }
 
 
@@ -344,8 +404,52 @@ body {
     background-color: var(--second_color);
 }
 
-.__product_menu_content_article img {
+.__product_menu_content_article a {
+    width: 100%;
+    text-align: center;
+    color: var(--thirst_color);
+    position: relative;
+}
+
+.__product_menu_content .__product_menu_content_article:hover a {
+    color: var(--primary_color);
+}
+
+.__product_menu_content_article .__add_to_cart {
     width: 194px;
+    height: 194px;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    display: block;
+    border-radius: var(--rounded);
+    -moz-border-radius: var(--rounded);
+    -webkit-border-radius: var(--rounded);
+}
+
+.__product_menu_content_article .__add_to_cart:after {
+    content: url("../img/zoom-in.png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(233, 75, 35, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition-duration: var(--duration);
+    -moz-transition-duration: var(--duration);
+    -webkit-transition-duration: var(--duration);
+}
+
+.__product_menu_content .__product_menu_content_article:hover .__add_to_cart:after {
+    opacity: 1;
+}
+
+.__product_menu_content_article img {
+    width: 100%;
     display: block;
     margin: 0 auto 20px;
 }
@@ -380,14 +484,23 @@ body {
 }
 
 .__divider:after {
-    content "";
+    content: "";
     width: 100%;
     height: 10px;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: var(--primary_color);
+    background-image: linear-gradient(rgba(18, 22, 24, 1), rgba(18, 22, 24, 1)), linear-gradient(-45deg, transparent 75%, rgba(18, 22, 24, 1) 75%), linear-gradient(45deg, transparent 75%, rgba(18, 22, 24, 1) 75%);
     z-index: 10;
+    display: block;
+    border: solid transparent;
+    border-width: 10px 0;
+    background-color: hsla(0, 0%, 0%, 0);
+    background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+    background-position: 0 0, 0 0, 0 0, 0 100%, 0 100%;
+    background-size: auto auto, 15px 15px, 15px 15px, 15px 15px, 15px 15px;
+    background-clip: padding-box, border-box, border-box, border-box, border-box;
+    background-origin: padding-box, border-box, border-box, border-box, border-box;
 }
 
 .__divider h3 {
