@@ -9,6 +9,34 @@
     <title>Saucero</title>
 </head>
 <body>
+
+<!-- MODAL PRODUCTS -->
+
+    <div class="row __modal ">
+        <span class="icon-times icon-notext __btn_close transition"></span>
+        <div class="container">
+            <div class="row __modal_content">
+                <div class="__modal_content_cover">
+                    <img src="assets/img/pizza.png" alt="">
+                </div>
+                <div class="__modal_content_desc radius">
+                    <h2>Lorem, ipsum dolor</h2>
+                    <p class="__price">R$ 99,00</p>
+                    <div class="__modal_content_desc_text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sint ea nihil 
+                        reiciendis, facere delectus nisi distinctio veritatis cupiditate fuga temporibus 
+                        architecto voluptates. Quos doloribus assumenda, ratione a hic at.</p>
+                        <div class="__modal__content_desc_text_control">
+                            <input type="text" class="form-control radius" maxlength="3" value="1">
+                            <a href="" class="radius btn __btn_add_to_cart">Adicionar ao Carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- END MODAL PRODUCTS -->
     <header class="__main_header">
         <div class="container">
             <div class="row __main_header_content">

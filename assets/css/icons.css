@@ -80,3 +80,7 @@
 .icon-angle-left:before {
     content: "\6c";
 }
+
+.icon-times:before {
+    content: "\6d";
+}
