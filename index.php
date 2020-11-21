@@ -65,7 +65,7 @@
                         </ul>
                     </nav>
                 </div>
-                
+                  
                 <div class="row __main_header_content_cart">
                     <div class="price_items">
                         <span>R$ 0,00</span>
