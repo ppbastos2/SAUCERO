@@ -78,7 +78,7 @@
         
             </div>
 
-            <button class="__btn_open_menu radius transition">
+            <button class="__btn_open_menu radius transition j_open_menu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -393,5 +393,8 @@
     <div class="__btn_up_content">
         <a href="" title="Subir para o topo" class="btn_up radius transition icon-angle-up"></a>
     </div>
+
+    <script src="_cdn/scripts/jquery.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
