@@ -13,21 +13,19 @@
 <!-- MODAL PRODUCTS -->
 
     <div class="row __modal ">
-        <span class="icon-times icon-notext __btn_close transition"></span>
+        <span class="icon-times icon-notext __btn_close transition j_close_modal"></span>
         <div class="container">
             <div class="row __modal_content">
                 <div class="__modal_content_cover">
-                    <img src="assets/img/pizza.png" alt="">
+                    <img src="" alt="" class="j_modal_img">
                 </div>
                 <div class="__modal_content_desc radius">
-                    <h2>Lorem, ipsum dolor</h2>
-                    <p class="__price">R$ 99,00</p>
+                    <h2 class="j_modal_title"></h2>
+                    <p class="__price j_price"></p>
                     <div class="__modal_content_desc_text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sint ea nihil 
-                        reiciendis, facere delectus nisi distinctio veritatis cupiditate fuga temporibus 
-                        architecto voluptates. Quos doloribus assumenda, ratione a hic at.</p>
+                        <p class="j_description"></p>
                         <div class="__modal__content_desc_text_control">
-                            <input type="text" class="form-control radius" maxlength="3" value="1">
+                            <input type="number" class="form-control radius" maxlength="3" value="1">
                             <a href="" class="radius btn __btn_add_to_cart">Adicionar ao Carrinho</a>
                         </div>
                     </div>
@@ -192,39 +190,75 @@
                 
                 <div class="row __product_menu_content active">
                     <article class="__product_menu_content_article radius">
-                        <a href="" class="__add_to_cart">
+                        <a href="javascript:void(0)" class="__add_to_cart j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$20,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
                             <img src="assets/img/hot.png" alt="">
                         </a>
-                        <h2><a href="">Lorem, ipsum dolor.</a></h2>
+                        <h2><a href="javascript:void(0)" class="j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$20,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
+                            Lorem, ipsum dolor.</a></h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         <p><span>R$20,00</span></p>
                     </article>
 
                     <article class="__product_menu_content_article radius">
-                        <a href="" class="__add_to_cart">
+                        <a href="javascript:void(0)" class="__add_to_cart j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$20,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
                             <img src="assets/img/hot.png" alt="">
                         </a>
-                        <h2><a href="">Lorem, ipsum dolor.</a></h2>
+                        <h2><a href="javascript:void(0)" class="j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$20,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
+                            Lorem, ipsum dolor.</a></h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         <p><span>R$20,00</span></p>
                     </article>
 
                     <article class="__product_menu_content_article radius">
-                        <a href="" class="__add_to_cart">
+                        <a href="javascript:void(0)" class="__add_to_cart j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$20,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
                             <img src="assets/img/hot.png" alt="">
                         </a>
-                        <h2><a href="">Lorem, ipsum dolor.</a></h2>
+                        <h2><a href="javascript:void(0)" class="j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$20,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
+                            Lorem, ipsum dolor.</a></h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         <p><span>R$20,00</span></p>
                     </article>
 
                     <article class="__product_menu_content_article radius">
-                        <a href="" class="__add_to_cart">
+                        <a href="javascript:void(0)" class="__add_to_cart j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
                             <img src="assets/img/hot.png" alt="">
                         </a>
-                        <h2><a href="">Lorem, ipsum dolor.</a></h2>
+                        <h2><a href="javascript:void(0)" class="j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
+                            Lorem, ipsum dolor.</a></h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <p><span>R$20,00</span></p>
+                        <p><span>R$30,00</span></p>
                     </article>
                 </div>
            </div>
@@ -244,78 +278,149 @@
 
                 <div class="row __product_menu_content active">
 
-                    <article class="__product_menu_content_article radius">
-                        <a href="" class="__add_to_cart">
+                <article class="__product_menu_content_article radius">
+                        <a href="javascript:void(0)" class="__add_to_cart j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
                             <img src="assets/img/hot.png" alt="">
                         </a>
-                        <h2><a href="">Lorem, ipsum dolor.</a></h2>
+                        <h2><a href="javascript:void(0)" class="j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
+                            Lorem, ipsum dolor.</a></h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <p><span>R$20,00</span></p>
+                        <p><span>R$30,00</span></p>
                     </article>
 
                     <article class="__product_menu_content_article radius">
-                        <a href="" class="__add_to_cart">
+                        <a href="javascript:void(0)" class="__add_to_cart j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
                             <img src="assets/img/hot.png" alt="">
                         </a>
-                        <h2><a href="">Lorem, ipsum dolor.</a></h2>
+                        <h2><a href="javascript:void(0)" class="j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
+                            Lorem, ipsum dolor.</a></h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <p><span>R$20,00</span></p>
+                        <p><span>R$30,00</span></p>
                     </article>
 
                     <article class="__product_menu_content_article radius">
-                        <a href="" class="__add_to_cart">
+                        <a href="javascript:void(0)" class="__add_to_cart j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
                             <img src="assets/img/hot.png" alt="">
                         </a>
-                        <h2><a href="">Lorem, ipsum dolor.</a></h2>
+                        <h2><a href="javascript:void(0)" class="j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
+                            Lorem, ipsum dolor.</a></h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <p><span>R$20,00</span></p>
+                        <p><span>R$30,00</span></p>
                     </article>
 
                     <article class="__product_menu_content_article radius">
-                        <a href="" class="__add_to_cart">
+                        <a href="javascript:void(0)" class="__add_to_cart j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
                             <img src="assets/img/hot.png" alt="">
                         </a>
-                        <h2><a href="">Lorem, ipsum dolor.</a></h2>
+                        <h2><a href="javascript:void(0)" class="j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
+                            Lorem, ipsum dolor.</a></h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <p><span>R$20,00</span></p>
+                        <p><span>R$30,00</span></p>
                     </article>
 
                     <article class="__product_menu_content_article radius">
-                        <a href="" class="__add_to_cart">
+                        <a href="javascript:void(0)" class="__add_to_cart j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
                             <img src="assets/img/hot.png" alt="">
                         </a>
-                        <h2><a href="">Lorem, ipsum dolor.</a></h2>
+                        <h2><a href="javascript:void(0)" class="j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
+                            Lorem, ipsum dolor.</a></h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <p><span>R$20,00</span></p>
+                        <p><span>R$30,00</span></p>
                     </article>
 
                     <article class="__product_menu_content_article radius">
-                        <a href="" class="__add_to_cart">
+                        <a href="javascript:void(0)" class="__add_to_cart j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
                             <img src="assets/img/hot.png" alt="">
                         </a>
-                        <h2><a href="">Lorem, ipsum dolor.</a></h2>
+                        <h2><a href="javascript:void(0)" class="j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
+                            Lorem, ipsum dolor.</a></h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <p><span>R$20,00</span></p>
+                        <p><span>R$30,00</span></p>
                     </article>
 
                     <article class="__product_menu_content_article radius">
-                        <a href="" class="__add_to_cart">
+                        <a href="javascript:void(0)" class="__add_to_cart j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
                             <img src="assets/img/hot.png" alt="">
                         </a>
-                        <h2><a href="">Lorem, ipsum dolor.</a></h2>
+                        <h2><a href="javascript:void(0)" class="j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
+                            Lorem, ipsum dolor.</a></h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <p><span>R$20,00</span></p>
+                        <p><span>R$30,00</span></p>
                     </article>
 
                     <article class="__product_menu_content_article radius">
-                        <a href="" class="__add_to_cart">
+                        <a href="javascript:void(0)" class="__add_to_cart j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
                             <img src="assets/img/hot.png" alt="">
                         </a>
-                        <h2><a href="">Lorem, ipsum dolor.</a></h2>
+                        <h2><a href="javascript:void(0)" class="j_read_more"
+                            data-img="assets/img/hot.png"
+                            data-title="lorem ipsum dolor."
+                            data-price="R$30,00"
+                            data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit">
+                            Lorem, ipsum dolor.</a></h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <p><span>R$20,00</span></p>
+                        <p><span>R$30,00</span></p>
                     </article>
-                </div>
            </div>
         </section>
 
@@ -391,7 +496,7 @@
     </footer>
 
     <div class="__btn_up_content">
-        <a href="" title="Subir para o topo" class="btn_up radius transition icon-angle-up"></a>
+        <a href="" title="Subir para o topo" class="btn_up radius transition icon-angle-up j_back_to_top"></a>
     </div>
 
     <script src="_cdn/scripts/jquery.js"></script>
