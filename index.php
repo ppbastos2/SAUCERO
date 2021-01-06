@@ -124,37 +124,45 @@
     <main>
         <section class="__main_slide_show">
             <div class="container">
-                <div class="row __main_slide_show_content active">
-                    <article class="__slide_show_content_title">
-                        <h2>Vincent Pizza 2</h2>
-                        <h3>making people happy</h3>
+                <div class="j_slide">
+                    <div class="row __main_slide_show_content __j_slide_item">
+                        <article class="__slide_show_content_title">
+                            <h2>Vincent Pizza 2</h2>
+                            <h3>making people happy</h3>
 
-                        <footer class="__slide_show_content_title_footer">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            <footer class="__slide_show_content_title_footer">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
 
-                            <a href="" class="btn radius transition btn_first">Book now</a>
-                            <a href="" class="btn radius transition btn_second">View Menu</a>
-                        </footer>
-                    </article>
-                    <div class="__slide_show_content_cover">
-                        <img src="assets/img/pizza.png" alt="banner">
+                                <a href="" class="btn radius transition btn_first">Book now</a>
+                                <a href="" class="btn radius transition btn_second">View Menu</a>
+                            </footer>
+                        </article>
+                        <div class="__slide_show_content_cover">
+                            <img src="assets/img/pizza.png" alt="banner">
+                        </div>
                     </div>
-                </div>
 
-                <div class="row __main_slide_show_content">
-                    <article class="__slide_show_content_title">
-                        <h2>Vincent Pizza 2</h2>
-                        <h3>making people happy</h3>
+                    <div class="row __main_slide_show_content __j_slide_item">
+                        <div class="__slide_show_content_cover">
+                            <img src="assets/img/pizza.png" alt="banner">
+                        </div>
 
-                        <footer class="__slide_show_content_title_footer">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <article class="__slide_show_content_title">
+                            <h2>Vincent</h2>
+                            <h3>making people happy</h3>
 
-                            <a href="" class="btn radius transition btn_first">Book now</a>
-                            <a href="" class="btn radius transition btn-yellow btn_second">View Menu</a>
-                        </footer>
-                    </article>
-                    <div class="__slide_show_content_cover">
-                        <img src="assets/img/pizza.png" alt="banner">
+                            <footer class="__slide_show_content_title_footer">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+                                <a href="" class="btn radius transition btn_first">Book now</a>
+                                <a href="" class="btn radius transition btn-yellow btn_second">View Menu</a>
+                            </footer>
+                        </article>
+                        
+                    </div>
+
+                    <div class="__j_slide_nav">
+                    
                     </div>
                 </div>    
             </div>
